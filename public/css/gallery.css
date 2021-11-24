@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/*About us header*/
+.about-us {
+    background-image: url('../images/banner-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/*.about-overlay {
+    background-color: #07173b;
+    opacity: 0.85;
+    padding-top: 11px;
+    padding-bottom: 112px;
+}*/
+
+.about-us h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 285%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-us p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .about-us {
+        background-position: center !important;
+    }
+    .about-us h2 {
+        font-size: 230%;
+        padding-top: 60px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+/*End of About us header*/
+
+.albums {
+    background-color: #ededed;
+}
+
+.main-gallery {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.main-gallery .card {
+    border: none !important;
+    background-color: #ededed;
+}
+
+#baguetteBox-overlay .full-image img {
+    max-width: 91%;
+    max-height: 91%;
+}
+
+.main-gallery .card img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 240px;
+    height: 100%;
+}
+
+.main-gallery .pic {
+    display: none;
+}
+
+.main-gallery .pic.show, a {
+    display: block !important;
+}
+
+.main-gallery .col-lg-3.mb-3.mb-lg-0 {
+    float: left !important;
+}
+
+#filterButton .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #b5b5b5;
+    color: #333333;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+#filterButton .btn.active {
+    outline: none !important;
+    background-color: #bc4236;
+    color: white;
+}
+
+#filterButton button:focus {
+    outline: 0 !important;
+}

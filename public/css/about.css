@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+
+/*About us header*/
+.about-us {
+    background-image: url('../images/banner-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*.about-overlay {
+    background-color: #07173b;
+    opacity: 0.85;
+    padding-top: 11px;
+    padding-bottom: 112px;
+}*/
+
+.about-us h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 285%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-us p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .about-us {
+        background-position: center !important;
+    }
+    .about-us h2 {
+        font-size: 230%;
+        padding-top: 60px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+/*End of About us header*/
+
+/*Core of Satellite*/
+.core-area {
+    background-color: #ededed;
+    padding-top: 108px;
+}
+
+.core-area h2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 112px;
+}
+
+.core-area .core-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.core-area .our-mission {
+    background-color: #07173b;
+    height: 350px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 102px;
+}
+
+.core-area .our-mission .our-mission-overlay {
+    background-image: url("../images/Patttern.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: right;
+}
+
+.core-area .our-mission h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.core-area .our-mission .card {
+    background-color: transparent;
+    border: none;
+    padding-top: 50px
+}
+
+.core-area .our-mission .card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    margin-top: 93px;
+    padding-right: 72px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .core-area {
+        padding-top: 30px;
+    }
+
+    .core-area h2 {
+        font-size: 18px;
+    }
+
+    .core-area .core-body {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .core-area .core-body p {
+        font-size: 10px;
+    }
+
+    .core-area .our-mission {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .core-area .our-mission .col-md-4 p {
+        margin-top: -14px !important;
+    }
+
+    .core-area .our-mission .col-md-4 p img {
+        width: 86px !important;
+    }
+
+    .core-area .our-mission h2 {
+        font-size: 20px !important;
+    }
+
+    .core-area .our-mission .card-body p {
+        font-size: 13px;
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .core-area .our-mission .card {
+        padding-top: 0px;
+    }
+
+    .core-area h2 {
+        font-size: 22px;
+    }
+
+    .core-area .our-mission .card-body p {
+        margin-top: 71px;
+        padding-right: 0px;
+    }
+
+    .core-area .our-mission .col-md-4 p {
+        margin-top: 97px !important;
+    }
+
+    .core-area .our-mission {
+        margin-left: 66px;
+        margin-right: 66px;
+    }
+}
+/*End of Core of Satellite*/
+
+
+/*Word of Our Chairman*/
+.word-chair .our-vision {
+    background-color: #bc4236;
+    height: 350px;
+    margin-left: 122px;
+    margin-right: 122px;
+}
+
+.word-chair .our-vision .our-vision-overlay {
+    background-image: url("../images/Patttern_flip.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: left;
+}
+
+.word-chair .our-vision .card {
+    background-color: transparent;
+    border: none;
+    padding-top: 50px
+}
+
+.word-chair .our-vision h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.word-chair .our-vision .card-body P {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    margin-top: 93px;
+    padding-left: 72px;
+}
+
+.word-chair .word-header .card {
+    border: none;
+}
+
+.word-chair .word-header {
+    margin-top: 102px;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-bottom: 102px;
+}
+
+.word-chair .word-header .chairman-dp img {
+    width: 362px;
+    margin-bottom: -18px;
+}
+
+.word-chair .word-header .card-body h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.word-chair .word-header .card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.word-chair .word-header .card-body .chairman-sign {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 115px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 410px) {
+    .word-chair .our-vision {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .word-chair .our-vision .card-body p {
+        padding-left: 0px;
+        margin-top: -30px !important;
+        font-size: 13px;
+    }
+
+    .word-chair .our-vision .col-md-4 p img {
+        width: 86px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 p {
+        margin-top: 20px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 h2 {
+        font-size: 20px !important;
+    }
+
+    .word-chair .word-header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .word-chair .word-header .card-body h2 {
+        font-size: 28px;
+    }
+
+    .word-chair .word-header .card-body p {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .card-body .chairman-sign {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .chairman-dp img {
+        width: 256px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 538px) {
+    .word-chair .our-vision {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .word-chair .our-vision .card-body p {
+        padding-left: 0px;
+        margin-top: -30px !important;
+        font-size: 13px;
+    }
+
+    .word-chair .our-vision .col-md-4 p img {
+        width: 86px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 p {
+        margin-top: 20px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 h2 {
+        font-size: 20px !important;
+    }
+
+    .word-chair .word-header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .word-chair .word-header .card-body h2 {
+        font-size: 28px;
+    }
+
+    .word-chair .word-header .card-body p {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .card-body .chairman-sign {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .chairman-dp img {
+        width: 302px !important;
+    }
+}
+
+@media only screen and (min-width: 539px) and (max-width: 767px) {
+    .word-chair .our-vision {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .word-chair .our-vision .card-body p {
+        padding-left: 0px;
+        margin-top: -30px !important;
+        font-size: 13px;
+    }
+
+    .word-chair .our-vision .col-md-4 p img {
+        width: 86px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 p {
+        margin-top: 20px !important;
+    }
+
+    .word-chair .our-vision .col-md-4 h2 {
+        font-size: 20px !important;
+    }
+
+    .word-chair .word-header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .word-chair .word-header .card-body h2 {
+        font-size: 28px;
+    }
+
+    .word-chair .word-header .card-body p {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .card-body .chairman-sign {
+        font-size: 12px;
+    }
+
+    .word-chair .word-header .chairman-dp img {
+        width: 302px !important;
+        margin-left: 77px !important;
+    }   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .word-chair .our-vision .card-body p {
+        padding-left: 0px;
+        margin-top: 58px;
+    }
+
+    .word-chair .word-header .chairman-dp img {
+        width: 292px;
+        margin-top: 328px !important;
+        margin-left: -38px !important;
+    }
+
+    .word-chair .word-header .card-body {
+        margin-left: -80px !important;
+        width: 192% !important;
+    }
+
+    .word-chair .word-header .card-body .chairman-sign {
+        margin-top: 170px !important;
+    }
+
+    .word-chair .our-vision {
+        margin-left: 66px;
+        margin-right: 66px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .word-chair .word-header .chairman-dp img {
+        margin-left: -62px;
+        margin-top: 30px;
+    }
+}
+/*End of our chairman*/
+
+
+/*Overwriting 'Who We Are' section css from 'style.css'*/
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about .card-body h4 {
+        font-size: 18px !important;
+    }
+
+    .about .card-text {
+        font-size: 13px !important;
+    }
+
+    .about-img {
+        margin-left: 16px !important;
+        width: 117% !important;
+    }
+
+    .about .card-body {
+        margin-top: -6% !important;
+        margin-left: 1% !important;
+        margin-right: -9% !important;
+    }
+}

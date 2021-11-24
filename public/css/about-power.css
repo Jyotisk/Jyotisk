@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/*About us header*/
+.about-us {
+    background-image: url('../images/banner-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/*.about-overlay {
+    background-color: #07173b;
+    opacity: 0.85;
+    padding-top: 11px;
+    padding-bottom: 112px;
+}*/
+
+.about-us h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 285%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-us p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .about-us {
+        background-position: center !important;
+    }
+    .about-us h2 {
+        font-size: 230%;
+        padding-top: 60px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+/*End of About us header*/
+
+/*MAC Power and Functions*/
+.mac-power {
+    background-color: #ededed;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.mac-power h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mac-power .power-body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.mac-power .power-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 85px;
+    margin-left: 178px;
+    margin-right: 178px;
+}
+
+.mac-power .power-list .sublist {
+    list-style-type: upper-roman;
+}
+
+.mac-power .read_more {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #bc4236;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 22%;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .mac-power .power-list {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+
+    .mac-power .read_more {
+        width: 66%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .mac-power .read_more {
+        width: 32%;
+    }
+}

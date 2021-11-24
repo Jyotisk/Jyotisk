@@ -1,0 +1,9 @@
+@media only screen and (max-width: 420px) {
+    .scope .container-fluid {
+        padding-left: 13px !important;
+    }
+
+    .social-media .container-fluid {
+        padding-left: 12px !important;
+    }
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/*About us header*/
+.about-us {
+    background-image: url('../images/banner-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+/*.about-overlay {
+    background-color: #07173b;
+    opacity: 0.85;
+    padding-top: 11px;
+    padding-bottom: 112px;
+}*/
+
+.about-us h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 285%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-us p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .about-us {
+        background-position: center !important;
+    }
+    .about-us h2 {
+        font-size: 230%;
+        padding-top: 60px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+/*End of About us header*/
+
+.announcement {
+    background-color:  #ededed !important;
+}
+
+.announcement .card-body .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.announcement .card .card-body .btn-primary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #114c91 !important;
+    border-radius: 2px;
+    width: 150px;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/*About us header*/
+.about-us {
+    background-image: url('../images/banner-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/*.about-overlay {
+    background-color: #07173b;
+    opacity: 0.85;
+    padding-top: 11px;
+    padding-bottom: 112px;
+}*/
+
+.about-us h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 285%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.about-us p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 358px) and (max-width: 767px) {
+    .about-us {
+        background-position: center !important;
+    }
+    .about-us h2 {
+        font-size: 230%;
+        padding-top: 60px;
+    }
+
+    .about-us p {
+        font-size: 12px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1050px) {
+    .about-us {
+        background-position: center !important;
+    }
+}
+/*End of About us header*/
+
+/*Table of Executive Councilors*/
+
+
+.department {
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+}
+
+.executive {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.executive h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.table .thead-color {
+    background-color: #114c91 !important;
+    color: white;
+}
+
+.table {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.executive .infras li {
+    list-style: none;
+}
+
+.executive .infras li::before {
+    content: "\2022" !important;
+    color: gray;
+    opacity: 1;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+/*Contact Us map CSS*/
+.map-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/*FAQ Section*/
+
+.department .accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+
+.department .accordion-section .panel-default .panel-title a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.department .accordion-section .panel-default .panel-title a:hover {
+    color: #bc4236;
+}
+
+.department .accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #bc4236;
+    float: right;
+    margin-top: -12px;
+}
+
+.department .accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+
+.department .accordion-section .panel-default .panel-body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+    
